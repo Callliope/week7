@@ -1,10 +1,10 @@
 .grid-container{
     display: grid;
-    width: 1050px;
-    height:900px;
-    grid-template-columns: 200px 1fr 1fr;
-    grid-template-rows: 80px 1fr 1fr 160px;
-    gap: 10px;
+    width: 100vw;
+    height:95vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15vh 1fr 1fr 20vh;
+    gap: 1vh;
 }
 .grid-header{
     grid-row: 1 / 2;
@@ -33,7 +33,7 @@
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: khaki;
-    padding: 15px;
+    padding: 1%;
 }
 #third{
     display: grid;
@@ -45,15 +45,18 @@
 }
 #first{
     background-color: #ffb07c;
-    margin-bottom: 15px;
-    margin-right: 15px;
+    margin-bottom: 4%;
+    margin-right: 4%;
 }
 #second{
     background-color: #ffb07c;
-    margin-bottom: 15px;
-    margin-left: 15px;
+    margin-bottom: 4%;
+    margin-left: 4%;
 }
 .footerf1,.footerf2,.footerf3,.footerf4{
     background-color: whitesmoke;
-    margin: 15px;
+    margin: 4%;
+}
+body{
+    font-size: 2vw;
 }
