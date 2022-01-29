@@ -1,0 +1,236 @@
+body{
+    background-color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+.logo{
+    margin-left: 8vw;
+    
+}
+
+.cart{
+    margin-left: 50vw;
+    margin-top:  6vh; 
+    
+}
+.heart{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    
+    place-self: center;
+}
+.avatar{
+    margin-left: 3vw;
+    margin-top: 6vh;
+    
+}
+.maintxt{
+    position: absolute;
+    font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 110px;
+line-height: 117.68%;
+text-align: left;
+margin-left:8vw;
+margin-top: 8vh;
+}
+#plant{
+    position: relative;
+    left: -2vw;
+    padding-top: 250px;
+}
+#plant2{
+    position: relative;
+    width: 858px;
+height: 701.71px;
+left: 411.5px;
+padding-top: 250px;
+}
+.coupons{
+    padding-top: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    position: relative;
+    width: 100%;
+ padding-top: 150px;
+}
+#head1{
+    position: absolute;
+    left: 167px;
+    bottom: 131px;
+    width: 100%;
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 117.68%;
+letter-spacing: 0.02em;
+
+color: #3DCB57;
+}
+#head2{
+    position: absolute;
+    left: 167px;
+    bottom: 25px;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 117.68%;
+
+
+
+color: #FFFFFF;
+}
+.threeph{
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+
+}
+@media screen and (max-width :500px){
+    .coupons{
+        flex-direction: column;
+        gap: 4vw;
+        padding-top: 8vh;
+    }
+    .threeph{
+        flex-direction: column;
+        padding: 2vw;
+        gap: 3vw;
+    } 
+    .maintxt{
+        position: static;
+        font-size: 17vw;
+        text-align: left;
+        margin-left: 3vw;
+        
+    }  
+    #plant,#plant2{
+        display: none;
+    }
+    .logo{
+        margin-left: 1vw;
+    }
+    .heading{
+     padding-top: 8vh;
+     padding-bottom: 5vh;
+    }
+    #head1{
+        position: static;
+        padding-left: 57px;
+        bottom: 185px;
+        width: 100%;
+        font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    
+    line-height: 117.68%;
+    letter-spacing: 0.02em;
+    
+    font-size: 5vw;
+    }
+    #head2{
+        position: static;
+        padding-left: 57px;
+        bottom: 65px;
+        font-size: 9vw;
+    color: #0F151B;}
+    #headph{
+        display: none
+        }
+        .nav{
+            flex-wrap: wrap;
+            align-items: left;
+        }
+    }
+    @media screen and (min-width :501px) and (max-width:769px){
+        #plant,#plant2{
+            display: none;}
+        .maintxt{
+            position: static;
+            font-size: 12vw;
+            text-align: left;
+            margin-left: 3vw;
+        }
+        .coupons{
+            flex-direction: column;
+            gap: 4vw;
+            padding-top: 8vh;
+            
+            
+        }
+        #headph{
+            display: none
+            }
+            #head1{
+                position: static;
+                padding-left: 57px;
+                bottom: 185px;
+                width: 100%;
+                font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            
+            line-height: 117.68%;
+            letter-spacing: 0.02em;
+            
+            font-size: 5vw;
+            }
+            #head2{
+                position: static;
+                padding-left: 57px;
+                bottom: 65px;
+                font-size: 9vw;
+            color: #0F151B;}
+            .threeph{
+                width: 32%;
+  display: inline-block;
+  
+            }
+    }
+    @media screen and (min-width :780px) and (max-width:1324px){
+        #plant2{
+            display: none;
+        }
+        #plant{
+            left: -8vw;}
+            #headph{
+                display: none
+                }
+                #head1{
+                    position: static;
+                    padding-left: 57px;
+                    bottom: 185px;
+                    width: 100%;
+                    font-family: Inter;
+                font-style: normal;
+                font-weight: 500;
+                
+                line-height: 117.68%;
+                letter-spacing: 0.02em;
+                
+                font-size: 5vw;
+                }
+                #head2{
+                    position: static;
+                    padding-left: 57px;
+                    bottom: 65px;
+                    font-size: 9vw;
+                color: #0F151B;}
+                .threeph{
+                    display: inline-block;
+                }
+                .coupons{
+                    flex-direction: column;
+                }
+    }
